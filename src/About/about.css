@@ -1,0 +1,201 @@
+.container-about{
+
+    margin-top: 40px;
+    padding: 50px;
+    width: 50%;
+    margin-left: 125px;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: rgba(131, 131, 131, 0.123);
+    box-shadow: 14px 14px 20px 0 rgb(110 110 110 / 30%);
+}
+
+.container-tech{
+    margin-top: -248px;
+    padding: 50px;
+    width: 30%;
+    height: auto;
+    margin-left: 1150px;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: rgba(131, 131, 131, 0.123);
+    box-shadow: 14px 14px 20px 0 rgb(110 110 110 / 30%);
+}
+
+.buton1{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 238, 0);
+    justify-content: space-between;   
+}
+
+.buton2{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 153, 0);
+    justify-content: space-between;   
+}
+
+.buton3{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(0, 174, 255);
+    justify-content: space-between;   
+}
+
+.buton4{
+    display: inline-block;
+    color: aliceblue;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,136,162,1) 50%, rgba(255,248,0,1) 100%);
+    justify-content: space-between;   
+}
+
+.buton5{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(0, 110, 255);
+    justify-content: space-between;   
+}
+
+.buton6{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(188, 200, 214);
+    justify-content: space-between;   
+}
+
+.buton7{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(79, 144, 218);
+    justify-content: space-between;   
+}
+
+.buton8{
+    color: aliceblue;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(34, 41, 49);
+    justify-content: space-between;   
+}
+
+.buton9{
+    color: black;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    background: rgb(0,136,162);
+background: linear-gradient(90deg, rgba(0,136,162,1) 50%, rgba(255,255,255,0.865983893557423) 66%);
+    justify-content: space-between;   
+}
+
+.buton10{
+    color: aliceblue;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(4, 217, 255);
+    justify-content: space-between;   
+}
+
+.buton11{
+    color: aliceblue;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(196, 4, 255);
+    justify-content: space-between;   
+}
+
+.buton12{
+    color: aliceblue;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(4, 163, 255);
+    justify-content: space-between;   
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    .container-about{  
+        padding: 50px;
+        width: 100%;
+        margin: auto;
+        margin-top: 340px;
+        border-radius: 5px;
+        background-color: rgba(131, 131, 131, 0.123);
+        box-shadow: 14px 14px 20px 0 rgb(110 110 110 / 30%);
+    }
+    .container-tech{
+        
+        padding: 50px;
+        width: 100%;
+        margin: auto;
+        height: auto;
+        border-radius: 5px;
+        background-color: rgba(131, 131, 131, 0.123);
+        box-shadow: 14px 14px 20px 0 rgb(110 110 110 / 30%);
+    }
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 481px) and (max-device-width : 768px){
+    .container-about{
+        margin: auto;
+        margin-top: 260px;
+        padding: 50px;
+        width: 100%;
+        border-radius: 5px;
+        background-color: rgba(131, 131, 131, 0.123);
+        box-shadow: 14px 14px 20px 0 rgb(110 110 110 / 30%);
+    }
+    .container-tech{
+        margin: auto;
+        margin-top: 20px;
+        padding: 50px;
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        background-color: rgba(131, 131, 131, 0.123);
+        box-shadow: 14px 14px 20px 0 rgb(110 110 110 / 30%);
+    }
+    
+}
+@media only screen
+and (min-device-width : 769px) and (max-device-width : 1024px){
+    .container-about{
+        margin: auto;
+        margin-top: 260px;
+        padding: 50px;
+        width: 100%;
+        border-radius: 5px;
+        background-color: rgba(131, 131, 131, 0.123);
+        box-shadow: 14px 14px 20px 0 rgb(110 110 110 / 30%);
+    }
+    .container-tech{
+        margin: auto;
+        margin-top: 20px;
+        padding: 50px;
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        background-color: rgba(131, 131, 131, 0.123);
+        box-shadow: 14px 14px 20px 0 rgb(110 110 110 / 30%);
+    }
+}
+
+
+
