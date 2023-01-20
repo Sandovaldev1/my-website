@@ -53,3 +53,44 @@ color: aliceblue;
         margin: 0 auto;
         }
 }
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 481px) and (max-device-width : 768px){
+    .CardStyle{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        flex-direction: column;
+    }   
+    .card {
+
+        margin-top: 10px;
+        margin-bottom: 15px;
+      } 
+      .divEstudios{
+        width: 100%;
+        margin: 0 auto;
+        }
+}
+@media only screen
+and (min-device-width : 769px) and (max-device-width : 1024px){
+    .CardStyle{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        flex-direction: row;
+    }   
+    .card {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        margin-right: 10px;
+      } 
+      .divEstudios{
+        width: 100%;
+        margin: 0 auto;
+        }
+        .cardImage{
+            height: 12rem;
+        }
+}

@@ -155,7 +155,7 @@ background: linear-gradient(90deg, rgba(0,136,162,1) 50%, rgba(255,255,255,0.865
 and (min-device-width : 481px) and (max-device-width : 768px){
     .container-about{
         margin: auto;
-        margin-top: 260px;
+        margin-top: 150px;
         padding: 50px;
         width: 100%;
         border-radius: 5px;
@@ -178,7 +178,7 @@ and (min-device-width : 481px) and (max-device-width : 768px){
 and (min-device-width : 769px) and (max-device-width : 1024px){
     .container-about{
         margin: auto;
-        margin-top: 260px;
+        margin-top: 200px;
         padding: 50px;
         width: 100%;
         border-radius: 5px;
@@ -197,5 +197,30 @@ and (min-device-width : 769px) and (max-device-width : 1024px){
     }
 }
 
+/* Desktops and laptops ----------- */
+@media only screen
 
+and (min-device-width : 1024px) and (max-device-width : 1224px){
+    .container-tech{
+        margin-top: -350px;
+        padding: 50px;
+        width: 30%;
+        height: auto;
+        margin-left: 642px;
+        border-radius: 5px;
+        background-color: rgba(131, 131, 131, 0.123);
+        box-shadow: 14px 14px 20px 0 rgb(110 110 110 / 30%);
+    }  
+    .container-about{
+
+        margin-top: 40px;
+        padding: 50px;
+        width: 50%;
+        margin-left: 90px;
+        margin-right: auto;
+        border-radius: 5px;
+        background-color: rgba(131, 131, 131, 0.123);
+        box-shadow: 14px 14px 20px 0 rgb(110 110 110 / 30%);
+    }
+}
 
