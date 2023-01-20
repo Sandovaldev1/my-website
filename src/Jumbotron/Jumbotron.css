@@ -19,9 +19,6 @@
     padding: 40px;
 }
 
-.figuritas{
-margin-left: 400px;
-}
 
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -43,15 +40,13 @@ margin-left: 400px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 210px;
+        margin-bottom: 20px;
         border-radius: 5px;
         background-color: rgba(2, 225, 255, 0.815);
         box-shadow: 14px 14px 20px 0 rgb(110 110 110 / 30%);
     }
-    .figuritas{
-        margin:  0 auto;
-        margin-top: 2050px;
-    }
-}
+
+ }
 /* iPads (portrait and landscape) ----------- */
 @media only screen
 and (min-device-width : 481px) and (max-device-width : 768px){
@@ -59,19 +54,17 @@ and (min-device-width : 481px) and (max-device-width : 768px){
     .container1{
         margin: 0 auto;
         width: 100%;
-        margin-top: 70px;
+        margin-top: 310px;
         border-radius: 5px;
         background-color: rgba(2, 225, 255, 0.815);
         box-shadow: 14px 14px 20px 0 rgb(110 110 110 / 30%);
         display: inline-block;
         padding: 40px;
     }
-    .figuritas{
-        margin-left: 60px;
-        margin-top: 80px;
-    }
+
     .jumbotron{
         width: 100%;
+        background-size: contain;
     }
 }
 @media only screen
@@ -81,22 +74,5 @@ and (min-device-width : 768px) and (max-device-width : 1024px){
     .jumbotron{
         width: 100%;
     }
-    .figuritas{
-        margin:  0 auto;
-        margin-top: 20px;
-    }
+ 
 }
-
-/* Desktops and laptops ----------- */
-@media only screen
-
-and (min-device-width : 1024px) and (max-device-width : 1224px){
-    
-
-.figuritas{
-    
-
-    margin-left: 400px;
-    margin: 0 auto;
-    }
-};

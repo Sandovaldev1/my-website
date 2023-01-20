@@ -6,10 +6,10 @@ import "./Card.css"
 function Cards() {
   return (
   <Fragment>
-    <div className='divEstudios'>
-    <h3>Estudios</h3>
-    </div>
 
+<div className='divEstudios'>
+  <h3>Estudios</h3>
+</div>
     <div className="CardStyle">
  <Card style={{ width: '20rem' }} className="card">
           <Card.Img variant="top" src="https://i.postimg.cc/2ymzNYQP/certificadogoogle.png" className="cardImage"/>

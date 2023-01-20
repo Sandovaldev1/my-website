@@ -1,26 +1,48 @@
-.container-about{
-
-    margin-top: 40px;
-    padding: 50px;
-    width: 50%;
-    margin-left: 125px;
-    margin-right: auto;
-    border-radius: 5px;
-    background-color: rgba(131, 131, 131, 0.123);
-    box-shadow: 14px 14px 20px 0 rgb(110 110 110 / 30%);
-}
-
-.container-tech{
-    margin-top: -248px;
-    padding: 50px;
-    width: 30%;
+.contenedor{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
     height: auto;
-    margin-left: 1150px;
-    margin-right: auto;
+    margin-top: 10px;
+    display: grid;
+    grid-gap: 90px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, auto);
+    grid-template-areas: "contenido sidebar";
+    
+
+}
+
+.contenedor > div,
+.contenedor .contenido,
+.contenedor .sidebar{
+    
+    padding: 20px;
+    border-radius: 20px;
     border-radius: 5px;
     background-color: rgba(131, 131, 131, 0.123);
     box-shadow: 14px 14px 20px 0 rgb(110 110 110 / 30%);
 }
+.contenedor .contenido{
+    /*grid-column: span 2;*/
+    grid-area: contenido;
+    justify-content: center;
+   
+    
+}
+
+.contenedor .sidebar{
+    width: 500px;
+    grid-column: 3 / 4;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    height: auto;
+    /*grid-row: span 2;*/
+    grid-area: sidebar;
+}
+
+  
 
 .buton1{
     display: inline-block;
@@ -95,7 +117,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,136,162,1) 50%, rgb
     margin-left: 10px;
     margin-bottom: 5px;
     background: rgb(0,136,162);
-background: linear-gradient(90deg, rgba(0,136,162,1) 50%, rgba(255,255,255,0.865983893557423) 66%);
+    background: linear-gradient(90deg, rgba(0,136,162,1) 50%, rgba(255,255,255,0.865983893557423) 66%);
     justify-content: space-between;   
 }
 
@@ -126,101 +148,30 @@ background: linear-gradient(90deg, rgba(0,136,162,1) 50%, rgba(255,255,255,0.865
     justify-content: space-between;   
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
-    .container-about{  
-        padding: 50px;
+@media screen and (min-device-width : 320px) and (max-width: 480px){
+    .contenedor{
         width: 100%;
-        margin: auto;
-        margin-top: 340px;
-        border-radius: 5px;
-        background-color: rgba(131, 131, 131, 0.123);
-        box-shadow: 14px 14px 20px 0 rgb(110 110 110 / 30%);
-    }
-    .container-tech{
+        margin-top: 360px;
+        grid-template-areas: "contenido contenido"
+        "sidebar sidebar";
         
-        padding: 50px;
+    }
+    .contenedor .sidebar{
         width: 100%;
-        margin: auto;
-        height: auto;
-        border-radius: 5px;
-        background-color: rgba(131, 131, 131, 0.123);
-        box-shadow: 14px 14px 20px 0 rgb(110 110 110 / 30%);
     }
 }
 
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen
-and (min-device-width : 481px) and (max-device-width : 768px){
-    .container-about{
-        margin: auto;
-        margin-top: 150px;
-        padding: 50px;
+@media screen and (min-device-width : 481px) and (max-width: 768px) {
+    .contenedor{
         width: 100%;
-        border-radius: 5px;
-        background-color: rgba(131, 131, 131, 0.123);
-        box-shadow: 14px 14px 20px 0 rgb(110 110 110 / 30%);
-    }
-    .container-tech{
-        margin: auto;
         margin-top: 20px;
-        padding: 50px;
-        width: 100%;
-        height: auto;
-        border-radius: 5px;
-        background-color: rgba(131, 131, 131, 0.123);
-        box-shadow: 14px 14px 20px 0 rgb(110 110 110 / 30%);
+        justify-content: center;
+        grid-template-areas: "contenido contenido"
+        "sidebar sidebar";
+        align-items: center;
+        
     }
-    
-}
-@media only screen
-and (min-device-width : 769px) and (max-device-width : 1024px){
-    .container-about{
-        margin: auto;
-        margin-top: 200px;
-        padding: 50px;
+    .contenedor .sidebar{
         width: 100%;
-        border-radius: 5px;
-        background-color: rgba(131, 131, 131, 0.123);
-        box-shadow: 14px 14px 20px 0 rgb(110 110 110 / 30%);
-    }
-    .container-tech{
-        margin: auto;
-        margin-top: 20px;
-        padding: 50px;
-        width: 100%;
-        height: auto;
-        border-radius: 5px;
-        background-color: rgba(131, 131, 131, 0.123);
-        box-shadow: 14px 14px 20px 0 rgb(110 110 110 / 30%);
     }
 }
-
-/* Desktops and laptops ----------- */
-@media only screen
-
-and (min-device-width : 1024px) and (max-device-width : 1224px){
-    .container-tech{
-        margin-top: -350px;
-        padding: 50px;
-        width: 30%;
-        height: auto;
-        margin-left: 642px;
-        border-radius: 5px;
-        background-color: rgba(131, 131, 131, 0.123);
-        box-shadow: 14px 14px 20px 0 rgb(110 110 110 / 30%);
-    }  
-    .container-about{
-
-        margin-top: 40px;
-        padding: 50px;
-        width: 50%;
-        margin-left: 90px;
-        margin-right: auto;
-        border-radius: 5px;
-        background-color: rgba(131, 131, 131, 0.123);
-        box-shadow: 14px 14px 20px 0 rgb(110 110 110 / 30%);
-    }
-}
-
