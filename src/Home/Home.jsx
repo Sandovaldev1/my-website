@@ -3,6 +3,7 @@ import {Fragment} from 'react';
 import { BarraNav } from '../Navbar/Navbar';
 import {Jumbotron} from '../Jumbotron/Jumbotron';
 import { About } from "../About/About";
+import {Cards} from "../Cards/Cards";
 import './Home.css';
 
 
@@ -14,6 +15,7 @@ function Home () {
         <BarraNav/>
         <Jumbotron/>
         <About/>
+        <Cards/>
 
         
         </Fragment>

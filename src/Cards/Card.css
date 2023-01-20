@@ -1,0 +1,55 @@
+.CardStyle{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.795);
+}
+.CardStyle :hover {
+    box-shadow: 2px 2px 8px 0 rgb(26, 75, 235), 4px 4px 16px 0 rgb(124, 102, 221), 0px 0px 24px 2px rgb(221, 197, 102);
+    transition-duration: 1s;
+
+  }
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+  } 
+
+  
+.cardImage{
+    height: 12rem;
+}
+
+.divEstudios{
+margin-top: 20px;
+width: 20%;
+height: auto;
+margin-left: 120px;
+text-align: center;
+background-color: rgba(37, 36, 36, 0.692);
+box-shadow: 14px 14px 20px 0 rgb(110 110 110 / 30%);
+color: aliceblue;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    .CardStyle{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        flex-direction: column;
+    }   
+    .card {
+        margin-top: 10px;
+        margin-bottom: 15px;
+      } 
+      .divEstudios{
+        width: 100%;
+        margin: 0 auto;
+        }
+}
